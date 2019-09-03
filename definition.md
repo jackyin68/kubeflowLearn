@@ -15,12 +15,15 @@ Kubeflow提供了一个自定义TensorFlow训练作业的操作符，您可以�
 Kubeflow支持TensorFlow服务容器，将经过训练的TensorFlow模型导出到Kubernetes。Kubeflow还集成了Seldon Core(一个用于在Kubernetes上部署机器学习模型的开源平台)和NVIDIA TensorRT推理服务器，以便在大规模部署ML/DL模型时最大化GPU利用率。
 
 管道
+
 Kubeflow pipeline是部署和管理端到端ML工作流的全面解决方案。使用Kubeflow管道进行快速可靠的试验。您可以安排和比较运行，并检查每次运行的详细报告。
 
 Multi-framework
+
 我们的发展计划超越了TensorFlow。我们正在努力扩展对PyTorch、MXNet、Chainer等的支持。我们还集成了Istio和ingress的入口, Nuclio作为一个快速的多用途无服务器框架，和管理您的数据科学管道。
 
 社区
+
 我们是一个开放和欢迎软件开发人员、数据科学家和组织的社区! 加入我们的Slack工作空间，寻求您可能遇到的任何问题的帮助，并阅读更多关于社区的信息。
 
 
