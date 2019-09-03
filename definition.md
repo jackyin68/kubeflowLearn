@@ -1,0 +1,32 @@
+Kubernetes的机器学习工具包
+
+Kubeflow项目致力于使机器学习(ML)工作流在Kubernetes上的部署变得简单、可移植和可伸缩。我们的目标不是重新创建其他服务，而是提供一种直接的方法，将ML的最佳开源系统部署到各种基础设施上。在运行Kubernetes的任何地方，都应该能够运行Kubeflow。
+
+Notebooks
+Kubeflow包括创建和管理交互式Jupyter notebook 的服务。您可以定制您的notebook部署和计算资源，以满足您的数据科学需求。在本地试验您的工作流，然后在准备好时将它们部署到云上。
+
+TensorFlow模型训练
+Kubeflow提供了一个自定义TensorFlow训练作业的操作符，您可以使用它来训练ML模型。特别是，Kubeflow的作业操作符可以处理分布式TensorFlow训练作业。将训练控制器配置为使用cpu或gpu，以适应各种集群大小。
+
+模型服务
+Kubeflow支持TensorFlow服务容器，将经过训练的TensorFlow模型导出到Kubernetes。Kubeflow还集成了Seldon Core(一个用于在Kubernetes上部署机器学习模型的开源平台)和NVIDIA TensorRT推理服务器，以便在大规模部署ML/DL模型时最大化GPU利用率。
+
+管道
+Kubeflow pipeline是部署和管理端到端ML工作流的全面解决方案。使用Kubeflow管道进行快速可靠的试验。您可以安排和比较运行，并检查每次运行的详细报告。
+
+Multi-framework
+我们的发展计划超越了TensorFlow。我们正在努力扩展对PyTorch、MXNet、Chainer等的支持。我们还集成了Istio和ingress的入口, Nuclio作为一个快速的多用途无服务器框架，和管理您的数据科学管道。
+
+社区
+我们是一个开放和欢迎软件开发人员、数据科学家和组织的社区! 加入我们的Slack工作空间，寻求您可能遇到的任何问题的帮助，并阅读更多关于社区的信息。
+
+
+
+
+
+
+
+
+
+
+
