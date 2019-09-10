@@ -54,8 +54,8 @@ Follow instructions: Kubeflow Deployment with kfctl_k8s_istio
 
 
 
-[1]   https://www.kubeflow.org/docs/started/k8s/overview/
-[2]   https://www.kubeflow.org/docs/started/k8s/kfctl-k8s-istio/
+[1]   https://www.kubeflow.org/docs/started/k8s/overview/  
+[2]   https://www.kubeflow.org/docs/started/k8s/kfctl-k8s-istio/  
 [3]
 [4]
 [5]
